@@ -45,13 +45,13 @@ function Abakada() {
         />
         <button
           onClick={applyPrefix}
-          className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold text-3xl h-16 px-8 rounded-md transition-colors duration-200"
+          className="bg-yellow-500 cursor-pointer hover:bg-yellow-400 text-gray-900 font-bold text-3xl h-16 px-8 rounded-md transition-colors duration-200"
         >
           Apply Prefix
         </button>
         <button
           onClick={shuffleVowels}
-          className="bg-gray-600 hover:bg-gray-500 text-white text-3xl font-semibold h-16 px-8 rounded-md transition-colors duration-200"
+          className="bg-gray-600 cursor-pointer hover:bg-gray-500 text-white text-3xl font-semibold h-16 px-8 rounded-md transition-colors duration-200"
         >
           Randomize
         </button>
